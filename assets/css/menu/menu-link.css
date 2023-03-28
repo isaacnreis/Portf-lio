@@ -1,0 +1,15 @@
+.menu__link {
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+
+    margin-right: 2rem;
+
+    transition: all .3s ease-in-out;
+}
+
+.menu__link:hover {
+    color: var(--azul);
+    font-size: 1.1rem;
+}

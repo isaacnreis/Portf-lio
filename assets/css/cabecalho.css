@@ -1,0 +1,11 @@
+.cabecalho {
+    background-color: var(--bg-primario);
+    color: var(--branco);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding: 1rem 0;
+}
