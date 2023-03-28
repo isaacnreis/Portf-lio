@@ -6,10 +6,9 @@
 
     margin-right: 2rem;
 
-    transition: all .3s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .menu__link:hover {
     color: var(--azul);
-    font-size: 1.1rem;
 }

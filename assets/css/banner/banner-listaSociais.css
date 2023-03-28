@@ -1,0 +1,6 @@
+.banner__lista-sociais {
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+}

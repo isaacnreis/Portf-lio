@@ -1,0 +1,23 @@
+.banner__titulo {
+    margin: 0;
+
+    color: var(--azul);
+    font-size: 3.25rem;
+    font-weight: 700;
+
+    transform: translateY(0);
+    animation: float 1s ease-in-out normal;
+    
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-100px);
+        opacity: 1%;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 100%;
+    }
+}

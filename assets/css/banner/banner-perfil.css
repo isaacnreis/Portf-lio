@@ -1,0 +1,14 @@
+.banner__perfil {
+    width: 23rem;
+    height: 23rem;
+
+    border-radius: 100%;
+
+    box-sizing: border-box;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.banner__perfil:hover {
+    border: 2px solid var(--azul);
+}

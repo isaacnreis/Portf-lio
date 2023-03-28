@@ -1,0 +1,24 @@
+.banner__link {
+    margin-right: 2rem;
+    
+    text-decoration: none;
+    color: var(--branco);
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    transition: all .1s ease-in-out;
+}
+
+.banner__link:hover {
+    color: var(--azul);
+}
+
+.banner__link--imagem {
+    background: url('../../img/Link-complemento.svg') no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+
+    display: inline-block;
+}

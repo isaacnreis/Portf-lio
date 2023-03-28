@@ -1,0 +1,9 @@
+.banner {
+    align-items: center;
+    background-color: var(--bg-primario);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: calc(100vh - 146px);    
+    justify-content: center;
+    padding: 2rem 2rem;
+}
