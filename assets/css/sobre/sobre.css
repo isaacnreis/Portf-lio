@@ -1,0 +1,8 @@
+.sobre {
+    background: var(--bg-secundario);
+    padding: 4rem;
+}
+
+.sobre--conteiner {
+    width: 46.9375em;
+}
