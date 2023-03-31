@@ -2,8 +2,9 @@
     align-items: center;
     background-color: var(--bg-primario);
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
     /*height: calc(100vh - 146px);*/
-    justify-content: center;
-    padding: 2rem 2rem;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }

@@ -1,0 +1,30 @@
+.skills__imagem {
+    background: var(--bg-secundario);
+    display: flex;
+    flex-direction: column-reverse;
+    font-weight: 700;
+    height: 174px;
+    width: 176px;
+    transition: all 0.2s linear;
+}
+
+.skills__imagem:hover {
+    background: none;
+    color: var(--branco);
+}
+
+.skills__imagem p {
+    padding-left: 1rem;
+}
+
+.skills__imagem--stacks{
+    height: 37px;
+    width: 24px;
+    transition: 1s linear;
+    padding-left: 1rem;
+}
+
+.skills__imagem:hover .skills__imagem--stacks {
+    transform: scale(4.5);
+    transform-origin: bottom;
+}

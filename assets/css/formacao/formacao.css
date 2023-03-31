@@ -1,3 +1,6 @@
 .formacao {
     background: var(--bg-secundario);
+
+    padding-top: 5.125rem;
+    padding-bottom: 5.125rem;
 }

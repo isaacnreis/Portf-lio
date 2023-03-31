@@ -1,6 +1,7 @@
 .sobre {
     background: var(--bg-secundario);
-    padding: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .sobre--conteiner {

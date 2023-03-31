@@ -1,0 +1,14 @@
+.projeto {
+    color: var(--branco);
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 4rem;
+}
+
+.projeto:last-child {
+    padding-bottom: 2rem;
+}
+
+.projeto:nth-child(2n){
+    flex-direction: row;
+}

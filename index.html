@@ -44,10 +44,30 @@
     <link rel="stylesheet" href="./assets/css/formacao/formacao.css"/>
     <link rel="stylesheet" href="./assets/css/formacao/formacao-titulo.css"/>
     <link rel="stylesheet" href="./assets/css/formacao/formacao-lista.css"/>
-
+    <link rel="stylesheet" href="./assets/css/formacao/formacao-imagem.css"/>
+    <link rel="stylesheet" href="./assets/css/formacao/formacao-subtitulo.css"/>
+    <link rel="stylesheet" href="./assets/css/formacao/formacao-descricao.css"/>
+    <link rel="stylesheet" href="./assets/css/projetos/projetos.css"/>
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-titulo.css"/>
+    <link rel="stylesheet" href="./assets/css/projetos/projeto.css"/>
+    <link rel="stylesheet" href="./assets/css/projetos/projeto-imagem.css"/>
+    <link rel="stylesheet" href="./assets/css/projetos/projeto-interacoes.css"/>
+    <link rel="stylesheet" href="./assets/css/projetos/projeto-tituto.css"/>
+    <link rel="stylesheet" href="./assets/css/projetos/projeto-descricao.css"/>
+    <link rel="stylesheet" href="./assets/css/projetos/projeto-botoes.css"/>
+    <link rel="stylesheet" href="./assets/css/projetos/projeto-botao.css"/>
+    <link rel="stylesheet" href="./assets/css/contato/contato.css"/>
+    <link rel="stylesheet" href="./assets/css/contato/contato-imagem.css"/>
+    <link rel="stylesheet" href="./assets/css/contato/contato-titulo.css"/>
+    <link rel="stylesheet" href="./assets/css/contato/contato-descricao.css"/>
+    <link rel="stylesheet" href="./assets/css/contato/contato-form.css"/>
+    <link rel="stylesheet" href="./assets/css/contato/contato-formulario.css"/>
+    <link rel="stylesheet" href="./assets/css/contato/contato-input.css"/>
+    <link rel="stylesheet" href="./assets/css/contato/contato-botao.css"/>
+    <link rel="stylesheet" href="./assets/css/rodape.css"/>
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho conteiner">
         <a href="index.html"><img src="./assets/img/Logo.svg" alt="Logo Isaac N Reis" class="logo"></a>
         <nav class="menu">
             <ul class="menu__lista">
@@ -60,59 +80,132 @@
             </ul>
         </nav>
     </header>
-    <section class="banner">
-        <div class="banner__textos">
-            <h1 class="banner__titulo">Olá, meu nome é Isaac N. Reis e construo páginas web</h1>
-            <p class="banner__descricao">Estou cursando Análise e Desenvolvimento de Sistemas e atualmente estou participando no projeto Oracle ONE na Alura.</p>
-            <ul class="banner__lista-sociais">
-                <li class="banner__item"><a href="https://github.com/isaacnreis" class="banner__link" target="_blank">Github <div class="banner__link--imagem"></div></a></li>
-                <li class="banner__item"><a href="https://www.linkedin.com/in/isaacnreis/" class="banner__link" target="_blank">Linkedin <div class="banner__link--imagem"></div></a></li>
-                <li class="banner__item"><a href="https://www.instagram.com/isaacacnas/" class="banner__link" target="_blank">Instagram <div class="banner__link--imagem"></div></a></li>
-                <li class="banner__item"><a href="https://drive.google.com/file/d/1R7D95x06iZ9-JSujIOfgR_Y3kaWY-Eb2/view?usp=sharing" class="banner__link" target="_blank">Currículo <div class="banner__link--imagem"></div></a></li>
+    <main>
+        <section class="banner conteiner">
+            <div class="banner__textos">
+                <h1 class="banner__titulo">Olá, meu nome é Isaac N. Reis e construo páginas web</h1>
+                <p class="banner__descricao">Estou cursando Análise e Desenvolvimento de Sistemas e atualmente estou participando no projeto Oracle ONE na Alura.</p>
+                <ul class="banner__lista-sociais">
+                    <li class="banner__item"><a href="https://github.com/isaacnreis" class="banner__link" target="_blank">Github <div class="banner__link--imagem"></div></a></li>
+                    <li class="banner__item"><a href="https://www.linkedin.com/in/isaacnreis/" class="banner__link" target="_blank">Linkedin <div class="banner__link--imagem"></div></a></li>
+                    <li class="banner__item"><a href="https://www.instagram.com/isaacacnas/" class="banner__link" target="_blank">Instagram <div class="banner__link--imagem"></div></a></li>
+                    <li class="banner__item"><a href="https://drive.google.com/file/d/1R7D95x06iZ9-JSujIOfgR_Y3kaWY-Eb2/view?usp=sharing" class="banner__link" target="_blank">Currículo <div class="banner__link--imagem"></div></a></li>
+                </ul>
+            </div>
+            <img src="./assets/img/Perfil1.jpg" alt="Imagem de perfil do autor. O autor é negro, cabelos pretos, jovem, camiseta preta, rosto oval e está sorrindo" class="banner__perfil">
+        </section>
+        <section class="sobre conteiner" id="sobre">
+            <div class="sobre--conteiner">
+                <h2 class="sobre__titulo titulo">Sobre mim</h2>
+                <p class="sobre__descricao">Meu nome é Isaac Nascimento, sou apaixonado por tecnologia aliada a criatividade e a inovação, através do pensamento lógico e do conhecimento, trazer novas ideias e um olhar apurado para o mercado, realizando cada vez mais projetos e trabalhos de qualidade.</p>
+                <p class="sobre__descricao">Estudante de Analise e Desenvolvimento de sistemas, Desenvolvimento Web, Design UX/UI busco oportunidade para adquirir experiência com desenvolvimento Full Stack. Atualmente me aprofundando em JavaScript, HTML, CSS e Java.</p>
+                <p class="sobre__descricao">Tenho conhecimento em diversas áreas de atuação. Possuo vontade de aprender, disposição, dedicação e responsabilidade. Busco desafios no mercado de trabalho, visando o meu desenvolvimento e crescimento profissional e intelectual.</p>
+            </div>
+            <div class="sobre__imagem"></div>
+        </section>
+        <section class="skills conteiner" id="skills">
+            <h2 class="skills__titulo titulo">Skills</h2>
+            <ul class="skills__lista">
+                <li class="skills__imagem"><p>Html 5</p> <img src="./assets/img/html.svg" alt="Logo HTML" class="skills__imagem--stacks"></li>
+                <li class="skills__imagem"><p>JavaScript</p> <img src="./assets/img/js.svg" alt="Logo JavaScript" class="skills__imagem--stacks"></li>
+                <li class="skills__imagem"><p>Java</p> <img src="./assets/img/java.svg" alt="Logo Java" class="skills__imagem--stacks"></li>
+                <li class="skills__imagem"><p>React</p> <img src="./assets/img/react.svg" alt="Logo React" class="skills__imagem--stacks"></li>
+                <li class="skills__imagem"><p>CSS</p> <img src="./assets/img/css.svg" alt="Logo CSS" class="skills__imagem--stacks"></li>
             </ul>
-        </div>
-        <img src="./assets/img/Perfil1.jpg" alt="Imagem de perfil do autor. O autor é negro, cabelos pretos, jovem, camiseta preta, rosto oval e está sorrindo" class="banner__perfil">
-    </section>
-    <section class="sobre" id="sobre">
-        <div class="sobre--conteiner">
-            <h2 class="sobre__titulo">Sobre mim</h2>
-            <p class="sobre__descricao">Meu nome é Isaac Nascimento, sou apaixonado por tecnologia aliada a criatividade e a inovação, através do pensamento lógico e do conhecimento, trazer novas ideias e um olhar apurado para o mercado, realizando cada vez mais projetos e trabalhos de qualidade.</p>
-            <p class="sobre__descricao">Estudante de Analise e Desenvolvimento de sistemas, Desenvolvimento Web, Design UX/UI busco oportunidade para adquirir experiência com desenvolvimento Full Stack. Atualmente me aprofundando em JavaScript, HTML, CSS e Java.</p>
-            <p class="sobre__descricao">Tenho conhecimento em diversas áreas de atuação. Possuo vontade de aprender, disposição, dedicação e responsabilidade. Busco desafios no mercado de trabalho, visando o meu desenvolvimento e crescimento profissional e intelectual.</p>
-        </div>
-        <div class="sobre__imagem"></div>
-    </section>
-    <section class="skills" id="skills">
-        <h2 class="skills__titulo">Skills</h2>
-        <ul class="skills__lista">
-            <li class="skills__imagem--html"></li>
-        </ul>
-    </section>
-    <section class="hobbies" id="hobbies">
-        <h2 class="hobbies__titulo">hobbies</h2>
-        <ul class="hobbies__lista">
-            <li class="hobbies__imagem--seriesFilmes"></li>
-        </ul>
-    </section>
-    <section class="formacao" id="formacao">
-        <h2 class="formacao__titulo">Formação acadêmica</h2>
-        <ul class="formacao__lista">
-            <li class="formacao__item">
-                <div class="formacao__imagem formacao__imagem--unifatecie"></div>
-                <h3 class="formacao__subtitulo">Análise e desenvolvimento de sistemas</h3>
-                <p class="formacao__descricao">Em andamento - UniFatecie</p>
-            </li>
-            <li class="formacao__item">
-                <div class="formacao__imagem formacao__imagem--alura"></div>
-                <h3 class="formacao__subtitulo">ONE - Formação Front-End</h3>
-                <p class="formacao__descricao">Em andamento - Alura</p>
-            </li>
-            <li class="formacao__item">
-                <div class="formacao__imagem formacao__imagem--senai"></div>
-                <h3 class="formacao__subtitulo">Aprendizagem Industrial de Telecomunicações</h3>
-                <p class="formacao__descricao">2019 - SENAI/MG</p>
-            </li>
-        </ul>
-    </section>
+        </section>
+        <section class="hobbies conteiner" id="hobbies">
+            <h2 class="hobbies__titulo titulo">Hobbies</h2>
+            <ul class="hobbies__lista">
+                <li class="hobbies__imagem"><p>Assistir series e filmes</p> <img src="./assets/img/tv.svg" alt="Ícone de televisão" class="hobbies__imagem--atividades"></li>
+                <li class="hobbies__imagem"><p>Jogar Basquete</p> <img src="./assets/img/basquete.png" alt="Ícone de uma bola de basquete" class="hobbies__imagem--atividades"></li>
+                <li class="hobbies__imagem"><p>Ouvir música</p> <img src="./assets/img/headphones.svg" alt="Ícone de fones de ouvido" class="hobbies__imagem--atividades"></li>
+                <li class="hobbies__imagem"><p>Desenhar</p> <img src="./assets/img/lapis.png" alt="Ícone de um lápis" class="hobbies__imagem--atividades"></li>
+                <li class="hobbies__imagem"><p>Ler livros</p> <img src="./assets/img/livro.png" alt="Ícone de um livro aberto" class="hobbies__imagem--atividades"></li>
+            </ul>
+        </section>
+        <section class="formacao conteiner" id="formacao">
+            <h2 class="formacao__titulo titulo">Formação acadêmica</h2>
+            <ul class="formacao__lista">
+                <li class="formacao__item">
+                    <div class="formacao__imagem"><div class="formacao__imagem--unifatecie"></div></div>
+                    <h3 class="formacao__subtitulo">Análise e desenvolvimento de sistemas</h3>
+                    <p class="formacao__descricao">Em andamento - UniFatecie</p>
+                </li>
+                <li class="formacao__item">
+                    <div class="formacao__imagem"><div class="formacao__imagem--alura"></div></div>
+                    <h3 class="formacao__subtitulo">ONE - Formação Front-End</h3>
+                    <p class="formacao__descricao">Em andamento - Alura</p>
+                </li>
+                <li class="formacao__item">
+                    <div class="formacao__imagem"><div class="formacao__imagem--senai"></div></div>
+                    <h3 class="formacao__subtitulo">Aprendizagem Industrial de Telecomunicações</h3>
+                    <p class="formacao__descricao">2019 - SENAI/MG</p>
+                </li>
+            </ul>
+        </section>
+        <section class="projetos conteiner" id="projetos">
+            <h2 class="projetos__titulo titulo">Experiência profissional</h2>
+            <article class="projeto">
+                <div class="projeto__imagem projeto__imagem--decodificador"></div>
+                <div class="projeto__interacao">
+                    <h3 class="projeto__titulo">Decodificador de texto</h3>
+                    <p class="projeto__descricao">Challenge Alura
+                        Codificador</p>
+                    <div class="projeto__botoes">
+                        <a class="projeto__botao projeto__botao--invertido" href="https://github.com/isaacnreis/alura-challenge-one" target="_blank">Repositório</a>
+                        <a class="projeto__botao" href="https://isaacnreis.github.io/alura-challenge-one/" target="_blank">Ver demo</a>
+                </div>
+                </div>
+            </article>
+            <article class="projeto projeto--reverso">
+                <div class="projeto__imagem projeto__imagem--decodificador"></div>
+                <div class="projeto__interacao">
+                    <h3 class="projeto__titulo">Decodificador de texto</h3>
+                    <p class="projeto__descricao">Challenge Alura
+                        Codificador</p>
+                    <div class="projeto__botoes">
+                        <a class="projeto__botao projeto__botao--invertido" href="https://github.com/isaacnreis/alura-challenge-one" target="_blank">Repositório</a>
+                        <a class="projeto__botao" href="https://isaacnreis.github.io/alura-challenge-one/" target="_blank">Ver demo</a>
+                </div>
+                </div>
+            </article>
+        </section>
+        <section class="contato conteiner">
+            <div class="contato__imagem"></div>
+            <div class="contato__form">
+                <h2 class="contato__titulo titulo">Contato</h2>
+                <p class="contato__descricao">Quer entrar em contato comigo?</p>
+                <p class="contato__descricao">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+                <form action="" class="contato__formulario">
+                        <div class="contato__input">
+                            <span class="contato__input--mensagemErro">Este campo não está válido</span>
+                            <input name="nome" id="nome" class="contato__input--nome input" type="text" placeholder="Nome" data-tipo="nome" required>
+                            <label class="contato__input--label" for="nome">Nome</label>
+                        </div>
+                        <div class="contato__input">
+                            <span class="contato__input--mensagemErro">Este campo não está válido</span>
+                            <input name="email" id="email" class="contato__input--email input" type="email" placeholder="Email" data-tipo="email" required>
+                            <label class="contato__input--label" for="nome">Email</label>   
+                        </div>
+                        <div class="contato__input">
+                            <span class="contato__input--mensagemErro">Este campo não está válido</span>
+                            <input name="assunto" id="assunto" class="contato__input--assunto input" type="text" placeholder="Assunto" data-tipo="assunto" required>
+                            <label class="contato__input--label" for="nome">Assunto</label>
+                        </div>
+                        <div class="contato__input">
+                            <span class="contato__input--mensagemErro">Este campo não está válido</span>
+                            <textarea name="mensagem" id="mensagem" class="contato__input--mensagem input" type="text" placeholder="Mensagem" data-tipo="mensagem" required></textarea>
+                            <label class="contato__input--label" for="nome">Mensagem</label>
+                        </div>
+                        <button class="contato__botao">Enviar mensagem</button>
+                </form>
+            </div> 
+        </section>
+    </main>    
+    <footer class="rodape">
+        <p>Desenvolvido por Isaac N. Reis</p>
+        <p>2023</p>
+    </footer>
+    <script src="./assets/js/app.js" type="module"></script>
 </body>
 </html>

@@ -1,0 +1,5 @@
+.contato__imagem {
+    background: url("../../img/contato.jpg") no-repeat center / contain;
+    height: 593px;
+    width: 464px;
+}

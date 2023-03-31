@@ -1,0 +1,30 @@
+.hobbies__imagem {
+    background: var(--bg-secundario);
+    display: flex;
+    flex-direction: column-reverse;
+    font-weight: 700;
+    height: 174px;
+    width: 176px;
+    transition: all 0.2s linear;
+}
+
+.hobbies__imagem:hover {
+    background: none;
+    color: var(--branco);
+}
+
+.hobbies__imagem p {
+    padding-left: 1rem;
+}
+
+.hobbies__imagem--atividades{
+    height: 37px;
+    width: 24px;
+    transition: 1s linear;
+    padding-left: 1rem;
+}
+
+.hobbies__imagem:hover .hobbies__imagem--atividades {
+    transform: scale(4.5) rotateY(360deg);
+    transform-origin: bottom;
+}

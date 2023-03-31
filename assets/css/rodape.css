@@ -1,0 +1,10 @@
+.rodape {
+    background: var(--bg-primario);
+    color: var(--branco);
+    text-align: center;
+    padding: 2rem;
+}
+
+.rodape p {
+    margin: 0;
+}

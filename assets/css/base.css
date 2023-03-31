@@ -15,30 +15,14 @@ body {
     font-family: var(--raleway);
 }
 
-/*.container {
-    padding-right: 6%;
-    padding-left: 6%;
+.conteiner {
+    /*padding-left: 9.5rem;
+    padding-right: 9.5rem;*/
+    padding-left: 10.55%;
+    padding-right: 10.55%;
 }
 
-.botao {
-    text-align: center;
-
-    display: block;
-
-    padding: 1rem 2rem;
-
-    box-sizing: border-box;
-
-    width: 100%;
-    max-width: 350px;
-
-    border: 1px solid var(--branco);
-    border-radius: 5px;
+.titulo {
+    color: var(--azul);
+    font-size: 2rem;
 }
-
-@media screen and (min-width: 1024px) {
-    .container {
-        padding-left: calc((100% - 940px)/2);
-        padding-right: calc((100% - 940px)/2);
-    }
-}*/

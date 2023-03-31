@@ -1,0 +1,87 @@
+.contato__input {
+    padding-top: 2rem;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.contato__input--mensagemErro {
+    display: none;
+}
+
+.input {
+    background-color: var(--branco);
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    height: 3.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--azul);
+}
+
+.contato__input--label {
+    position: absolute;
+    bottom: 1rem;
+    color: #3f3f3f;
+    left: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    transition: all .25s;
+}
+
+.input:not(:placeholder-shown) + .contato__input--label, .input:focus + .contato__input--label {
+    font-size: 0.875rem;
+    bottom: 2.1rem;
+    transition: all .25s;
+    color: #A2A2A2;
+}
+
+.contato__input--mensagem {
+    height: 8.3125rem;
+}
+
+.contato__input--mensagem + .contato__input--label {
+    bottom: 3.5rem;
+    left: 0.5rem;
+}
+
+.contato__input--mensagem:not(:placeholder-shown) + .contato__input--label, .contato__input--mensagem:focus + .contato__input--label {
+    font-size: 0.875rem;
+    bottom: 7.6rem;
+    transition: all .25s;
+    color: #A2A2A2;
+}
+
+.input-container--invalido {
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalido .input {
+    border: 1px solid #bf1616;
+    border-radius: 7px;
+}
+
+.input-container--invalido .contato__input--label {
+    color: #bf1616;
+}
+
+.input-container--invalido .contato__input--mensagemErro {
+    color: #bf1616;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.contato__input--PaddingmensagemErro {
+    padding-top: 0;
+}

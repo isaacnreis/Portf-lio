@@ -1,0 +1,10 @@
+.contato__botao {
+    color: var(--branco);
+    background-color: var(--azul);
+    margin-top: 1rem;
+    width: 40%;
+    padding: 1rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid var(--azul);   
+}

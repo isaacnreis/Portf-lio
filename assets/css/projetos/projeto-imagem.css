@@ -1,0 +1,8 @@
+.projeto__imagem {
+    height: 406px;
+    width: 752px;
+}
+
+.projeto__imagem--decodificador {
+    background: url("../../img/descriptador.png") no-repeat center / contain;
+}
