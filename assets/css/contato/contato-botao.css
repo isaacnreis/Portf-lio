@@ -8,3 +8,9 @@
     box-sizing: border-box;
     border: 1px solid var(--azul);   
 }
+
+@media screen and (max-width: 460px) {
+    .contato__botao {
+        width: 50%;
+    }
+}

@@ -25,6 +25,26 @@
 }
 
 .hobbies__imagem:hover .hobbies__imagem--atividades {
-    transform: scale(4.5) rotateY(360deg);
+    transform: scale(4) rotateY(360deg);
     transform-origin: bottom;
+}
+
+@media screen and (max-width: 768px) {
+    .hobbies__imagem {
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+        height: 118px;
+        width: 224px;
+    }
+
+    .hobbies__imagem:hover .hobbies__imagem--atividades {
+        transform: scale(2);
+        transform-origin: bottom;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .hobbies__imagem {
+        width: 156px;
+    }
 }

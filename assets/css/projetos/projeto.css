@@ -12,3 +12,19 @@
 .projeto:nth-child(2n){
     flex-direction: row;
 }
+
+@media screen and (max-width: 768px) {
+    .projeto {
+        flex-direction: column;
+    }
+    
+    .projeto:nth-child(2n){
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .projeto {
+        padding-bottom: 2rem;
+    }
+}

@@ -12,3 +12,15 @@
 .menu__link:hover {
     color: var(--azul);
 }
+
+@media screen and (max-width: 980px) {
+    .menu__link {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .menu--mobile .menu__link {
+        font-size: 0.875rem;
+    }
+}

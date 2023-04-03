@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="./assets/css/banner/banner-perfil.css"/>
     <link rel="stylesheet" href="./assets/css/sobre/sobre.css"/>
     <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css"/>
-    <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css"/>
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-descricao.css"/>
     <link rel="stylesheet" href="./assets/css/sobre/sobre-imagem.css"/>
     <link rel="stylesheet" href="./assets/css/skills/skills.css"/>
     <link rel="stylesheet" href="./assets/css/skills/skills-titulo.css"/>
@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="./assets/css/formacao/formacao.css"/>
     <link rel="stylesheet" href="./assets/css/formacao/formacao-titulo.css"/>
     <link rel="stylesheet" href="./assets/css/formacao/formacao-lista.css"/>
+    <link rel="stylesheet" href="./assets/css/formacao/formacao-item.css"/>
     <link rel="stylesheet" href="./assets/css/formacao/formacao-imagem.css"/>
     <link rel="stylesheet" href="./assets/css/formacao/formacao-subtitulo.css"/>
     <link rel="stylesheet" href="./assets/css/formacao/formacao-descricao.css"/>
@@ -76,6 +77,11 @@
                 <li class="menu__item"><a href="#hobbies" class="menu__link">Hobbies</a></li>
                 <li class="menu__item"><a href="#formacao" class="menu__link">Formação</a></li>
                 <li class="menu__item"><a href="#projetos" class="menu__link">Projetos</a></li>
+                <li class="menu__item"><a href="mailto: isaacreisn@gmail.com" class="menu__link">isaacreisn@gmail.com</a></li>
+            </ul>
+        </nav>
+        <nav class="menu--mobile">
+            <ul class="menu__lista">
                 <li class="menu__item"><a href="mailto: isaacreisn@gmail.com" class="menu__link">isaacreisn@gmail.com</a></li>
             </ul>
         </nav>
@@ -138,7 +144,7 @@
                 </li>
                 <li class="formacao__item">
                     <div class="formacao__imagem"><div class="formacao__imagem--senai"></div></div>
-                    <h3 class="formacao__subtitulo">Aprendizagem Industrial de Telecomunicações</h3>
+                    <h3 class="formacao__subtitulo">Aprendizagem em Telecomunicações</h3>
                     <p class="formacao__descricao">2019 - SENAI/MG</p>
                 </li>
             </ul>
@@ -157,7 +163,7 @@
                 </div>
                 </div>
             </article>
-            <article class="projeto projeto--reverso">
+            <article class="projeto">
                 <div class="projeto__imagem projeto__imagem--decodificador"></div>
                 <div class="projeto__interacao">
                     <h3 class="projeto__titulo">Decodificador de texto</h3>
@@ -179,7 +185,7 @@
                 <form action="" class="contato__formulario">
                         <div class="contato__input">
                             <span class="contato__input--mensagemErro">Este campo não está válido</span>
-                            <input name="nome" id="nome" class="contato__input--nome input" type="text" placeholder="Nome" data-tipo="nome" required>
+                            <input name="nome" id="nome" class="contato__input--nome input" type="text" placeholder="Nome" data-tipo="nome" maxlength="50" required>
                             <label class="contato__input--label" for="nome">Nome</label>
                         </div>
                         <div class="contato__input">
@@ -189,12 +195,12 @@
                         </div>
                         <div class="contato__input">
                             <span class="contato__input--mensagemErro">Este campo não está válido</span>
-                            <input name="assunto" id="assunto" class="contato__input--assunto input" type="text" placeholder="Assunto" data-tipo="assunto" required>
+                            <input name="assunto" id="assunto" class="contato__input--assunto input" type="text" placeholder="Assunto" data-tipo="assunto" maxlength="50" required>
                             <label class="contato__input--label" for="nome">Assunto</label>
                         </div>
                         <div class="contato__input">
                             <span class="contato__input--mensagemErro">Este campo não está válido</span>
-                            <textarea name="mensagem" id="mensagem" class="contato__input--mensagem input" type="text" placeholder="Mensagem" data-tipo="mensagem" required></textarea>
+                            <textarea name="mensagem" id="mensagem" class="contato__input--mensagem input" type="text" placeholder="Mensagem" data-tipo="mensagem" maxlength="300" required></textarea>
                             <label class="contato__input--label" for="nome">Mensagem</label>
                         </div>
                         <button class="contato__botao">Enviar mensagem</button>

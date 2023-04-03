@@ -1,6 +1,13 @@
 .formacao__lista {
     display: flex;
     justify-content: space-between;
-
     list-style: none;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 460px) {
+    .formacao__lista {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
 }

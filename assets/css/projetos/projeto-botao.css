@@ -2,6 +2,7 @@
     color: var(--branco);
     background-color: var(--azul);
     margin-right: 1rem;
+    margin-bottom: 1rem;
     padding: 1rem;
     text-decoration: none;
     box-sizing: border-box;
@@ -11,4 +12,12 @@
 .projeto__botao--invertido {
     color: var(--azul);
     background: none;
+}
+
+@media screen and (max-width: 768px) {
+    .projeto__botao {
+        font-size: 0.875rem;
+        margin-bottom: 0;
+        padding: 0.8rem 1.4rem;
+    }
 }

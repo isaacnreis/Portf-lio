@@ -25,6 +25,26 @@
 }
 
 .skills__imagem:hover .skills__imagem--stacks {
-    transform: scale(4.5);
+    transform: scale(4);
     transform-origin: bottom;
+}
+
+@media screen and (max-width: 768px) {
+    .skills__imagem {
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+        height: 118px;
+        width: 224px;
+    }
+
+    .skills__imagem:hover .skills__imagem--stacks {
+        transform: scale(2);
+        transform-origin: bottom;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .skills__imagem {
+        width: 156px;
+    }
 }

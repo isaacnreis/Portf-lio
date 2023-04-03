@@ -48,6 +48,7 @@
 
 .contato__input--mensagem {
     height: 8.3125rem;
+    resize: none;
 }
 
 .contato__input--mensagem + .contato__input--label {
@@ -84,4 +85,10 @@
 
 .contato__input--PaddingmensagemErro {
     padding-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .contato__input--PaddingmensagemErro {
+        padding-top: 1rem;
+    }
 }

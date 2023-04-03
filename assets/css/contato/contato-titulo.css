@@ -1,3 +1,9 @@
 .contato__titulo {
     margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .contato__titulo {
+        color: #464646;
+    }
+}

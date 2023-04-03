@@ -12,3 +12,26 @@
 .banner__perfil:hover {
     border: 2px solid var(--azul);
 }
+
+@media screen and (max-width: 980px) {
+    .banner__perfil {
+        width: 15.8rem;
+        height: 15.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner__perfil {
+        width: 9.125rem;
+        height: 9.125rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .banner__perfil {
+        width: 6.125rem;
+        height: 6.125rem;
+        margin-bottom: 1rem;
+    }
+}

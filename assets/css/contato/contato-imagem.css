@@ -3,3 +3,9 @@
     height: 593px;
     width: 464px;
 }
+
+@media screen and (max-width: 768px) {
+    .contato__imagem {
+        display: none;
+    }
+}

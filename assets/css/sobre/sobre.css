@@ -7,3 +7,14 @@
 .sobre--conteiner {
     width: 46.9375em;
 }
+
+@media screen and (max-width: 768px) {
+    .sobre {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .sobre--conteiner {
+        width: 100%;
+    }
+}

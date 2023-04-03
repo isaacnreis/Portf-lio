@@ -4,5 +4,20 @@
 }
 
 .projeto__imagem--decodificador {
-    background: url("../../img/descriptador.png") no-repeat center / contain;
+    background: url("../../img/descriptador.png") no-repeat left / contain;
+}
+
+
+@media screen and (max-width: 768px) {
+    .projeto__imagem {
+        height: 320px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .projeto__imagem {
+
+        align-self: center;
+    }
 }

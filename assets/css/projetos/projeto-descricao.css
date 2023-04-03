@@ -1,0 +1,9 @@
+.projeto__descricao {
+    margin: 0.5rem 0; 
+}
+
+@media screen and (max-width: 768px) {
+    .projeto__descricao {
+        font-size: 0.875rem;
+    }
+}

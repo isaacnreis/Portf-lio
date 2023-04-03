@@ -18,11 +18,45 @@ body {
 .conteiner {
     /*padding-left: 9.5rem;
     padding-right: 9.5rem;*/
-    padding-left: 10.55%;
-    padding-right: 10.55%;
+    /*padding-left: 10.55%;
+    padding-right: 10.55%;*/
+    padding-left: 10.55vw;
+    padding-right: 10.55vw;
 }
 
 .titulo {
     color: var(--azul);
     font-size: 2rem;
+}
+
+@media screen and (max-width: 1290px) {
+    .conteiner {
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .conteiner {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .conteiner {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .titulo {
+        font-size:1.375rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .conteiner {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }

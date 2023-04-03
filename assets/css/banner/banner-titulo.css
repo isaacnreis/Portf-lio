@@ -21,3 +21,9 @@
         opacity: 100%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .banner__titulo {
+        font-size: 1.375rem;
+    }
+}

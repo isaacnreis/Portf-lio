@@ -1,13 +1,17 @@
-.logo {
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
+@media screen and (max-width: 980px) {
+    .logo {
+        width: 180px;
+    }
 }
 
-.logo--azul {
-    color: var(--azul);
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 150px;
+    }
 }
 
-.logo--maior {
-    font-size: 2rem;
+@media screen and (max-width: 460px) {
+    .logo {
+        width: 134px;
+    }
 }
