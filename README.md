@@ -4,7 +4,7 @@
 
 <img align="center" src="./assets/img/previw.png">
 
-<h4 align="center"><a href="https://isaacnreis.github.io/Portf-lio/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://isaacnreis.github.io/portfolio/">Clique para visitar o projeto</a></h4>
 
 ---
 
