@@ -7,6 +7,9 @@
     background: url("../../img/descriptador.png") no-repeat left / contain;
 }
 
+.projeto__imagem--jogoDaVelha {
+    background: url("../../img/jogoDaVelha.png") no-repeat left / contain;
+}
 
 @media screen and (max-width: 768px) {
     .projeto__imagem {
