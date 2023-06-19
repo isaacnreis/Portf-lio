@@ -1,14 +1,12 @@
 .skills__lista {
     display: flex;
-    justify-content: space-between;
     list-style: none;
-    padding-top: 2rem;
+    gap: 2rem;
 }
 
 @media screen and (max-width: 768px) {
     .skills__lista {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 }

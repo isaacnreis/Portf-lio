@@ -1,11 +1,7 @@
 .projeto__botoes {
     display: flex;
+    justify-content: center;
     margin-top: 1rem;
+    gap: 1rem;
     flex-wrap: wrap;
-}
-
-@media screen and (max-width: 768px) {
-    .projeto__botoes {
-        margin-top: 0;
-    }
 }

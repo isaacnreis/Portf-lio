@@ -2,10 +2,6 @@
     color: var(--branco);
     display: flex;
     flex-direction: row-reverse;
-    padding-bottom: 4rem;
-}
-
-.projeto:last-child {
     padding-bottom: 2rem;
 }
 
@@ -25,6 +21,6 @@
 
 @media screen and (max-width: 460px) {
     .projeto {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 }

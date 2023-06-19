@@ -1,5 +1,6 @@
 .skills__imagem {
     background: var(--bg-secundario);
+    border-radius: 20px;
     display: flex;
     flex-direction: column-reverse;
     font-weight: 700;
@@ -31,10 +32,18 @@
 
 @media screen and (max-width: 768px) {
     .skills__imagem {
-        margin-right: 1rem;
-        margin-bottom: 2rem;
         height: 118px;
-        width: 224px;
+        width: 25%;
+    }
+    
+    .skills__imagem p {
+      padding-left: 0;
+      text-align: center;
+    }
+
+    .skills__imagem--stacks{
+      align-self: center;
+      padding-left: 0;
     }
 
     .skills__imagem:hover .skills__imagem--stacks {
@@ -45,6 +54,6 @@
 
 @media screen and (max-width: 460px) {
     .skills__imagem {
-        width: 156px;
+        width: 40%;
     }
 }

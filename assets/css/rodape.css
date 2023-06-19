@@ -2,9 +2,10 @@
     background: var(--bg-primario);
     color: var(--branco);
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0 1rem 0 ;
 }
 
 .rodape p {
     margin: 0;
+    font-size: 0.825rem;
 }

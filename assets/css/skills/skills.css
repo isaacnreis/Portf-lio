@@ -1,11 +1,12 @@
 .skills {
     background: var(--bg-primario);
+    box-sizing: border-box;
     padding-top: 2rem;
-    padding-bottom: 5.5rem;
+    padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 768px) {
     .skills {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 }

@@ -1,14 +1,28 @@
 .projeto__imagem {
-    height: 406px;
-    width: 752px;
+  background-color: white;
+  border-radius: 20px;
+  height: 320px;
+  width: 60%;
 }
 
 .projeto__imagem--decodificador {
-    background: url("../../img/descriptador.png") no-repeat left / contain;
+    background: white url("../../img/descriptador.png") no-repeat center / cover;
 }
 
 .projeto__imagem--jogoDaVelha {
-    background: url("../../img/jogoDaVelha.png") no-repeat left / contain;
+    background: white url("../../img/jogoDaVelha.png") no-repeat center / cover;
+}
+
+.projeto__imagem--pokedex {
+    background: white url("../../img/pokedex.png") no-repeat center / contain;
+}
+
+.projeto__imagem--stabarts {
+    background: white url("../../img/stabarts.png") no-repeat center / cover;
+}
+
+.projeto__imagem--curriculo{
+  background: white url("../../img/curriculo.png") no-repeat center / cover;
 }
 
 @media screen and (max-width: 768px) {
@@ -20,7 +34,6 @@
 
 @media screen and (max-width: 460px) {
     .projeto__imagem {
-
         align-self: center;
     }
 }

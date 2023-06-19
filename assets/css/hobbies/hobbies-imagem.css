@@ -1,5 +1,6 @@
 .hobbies__imagem {
     background: var(--bg-secundario);
+    border-radius: 20px;
     display: flex;
     flex-direction: column-reverse;
     font-weight: 700;
@@ -31,20 +32,27 @@
 
 @media screen and (max-width: 768px) {
     .hobbies__imagem {
-        margin-right: 1rem;
-        margin-bottom: 2rem;
         height: 118px;
-        width: 224px;
+        width: 25%;
+    }
+
+    .hobbies__imagem p {
+      padding-left: 0;
+      text-align: center;
+    }
+
+    .hobbies__imagem--atividades{
+      align-self: center;
+      padding-left: 0;
     }
 
     .hobbies__imagem:hover .hobbies__imagem--atividades {
-        transform: scale(2);
-        transform-origin: bottom;
+        transform: none;
     }
 }
 
 @media screen and (max-width: 460px) {
     .hobbies__imagem {
-        width: 156px;
+      width: 40%;
     }
 }
